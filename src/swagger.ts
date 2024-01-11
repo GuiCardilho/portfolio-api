@@ -12,7 +12,7 @@ const options = {
         servers: [
             {
                 description: "Local server",
-                url: `http://localhost:${env.PORT}`,
+                url: `http://localhost:${env.PORT || 10000}`,
             },
         ],
     },
