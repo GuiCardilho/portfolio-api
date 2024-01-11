@@ -17,7 +17,7 @@ const router = Router();
  *         description: Service is not healthy
  */
 
-router.get("/health", (req, res) => {
+router.get("/", (req, res) => {
     res.status(200).json({ message: "Service is healthy" });
 });
 
